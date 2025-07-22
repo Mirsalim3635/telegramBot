@@ -16,4 +16,4 @@ WORKDIR /app
 
 COPY --from=build /app/out ./
 
-ENTRYPOINT ["dotnet", "YourBot.dll"]
+ENTRYPOINT ["dotnet", "bot1.dll"]
