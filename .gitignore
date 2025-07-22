@@ -8,3 +8,4 @@ obj/
 *.user
 *.vs
 .vscode/
+ENTRYPOINT ["dotnet", "bot1.dll"]
